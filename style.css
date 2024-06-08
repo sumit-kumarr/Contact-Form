@@ -1,0 +1,57 @@
+body{
+    background-image: url("dark.jpg");
+    color: white;
+    align-items: center;
+}
+form{
+    background-color: white;
+   color: black;
+   border-radius: 30px;
+   width: 510px;
+   height: 570px;
+   padding: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   box-sizing: border-box;
+   margin:50px auto 50px;
+}
+form h1{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+label{
+    color:rgb(211, 70, 15);
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    display: inline-block;
+}
+input,textarea{
+    box-sizing: border-box;
+    width: 400px;
+    height: 30px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textarea{
+    height: 50px;
+}
+.button{
+    flex-grow: 1;
+    width: 400px;
+    height: 35px;
+    margin: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: black;
+    color: aliceblue;
+
+}
+.button:hover{
+    background-color: rgb(7, 7, 233);
+    color: rgb(234, 15, 15);
+    width: 400px;
+
+}
+ 
